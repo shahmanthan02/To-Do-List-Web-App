@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* background-color: #2b9fe2; */
+    background-image: url(to_do.jpeg);
+
+}
+
+/* Styling the Title */
+#title {
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    color: white;
+}
+b {
+    margin-left: 100px;
+    font-size: 39px;
+}
+
+/* Styling the main */
+#main {
+    background-color: aliceblue;
+    border-radius: 4px;
+    width: 21%;
+    text-align: center;
+    box-shadow: 10px 10px 5px lightblue;
+    padding: 45px;
+    margin: 126px;
+}
+
+/* Styling the description */
+#description{
+  
+}
+
+/* Styling the title header */
+#title_h{
+  /* border: 2px solid black; */
+  border-radius: 4px;
+  width: 95%;
+  padding: 5px;
+}
+
+/* Styling the Save */
+#save{
+    text-align: center;
+    width: 97%;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px;
+    color: whitesmoke;
+    background-color: rgb(129, 198, 55);
+}
+
+.text{
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    width: 50%;
+    float: right;
+    bottom: 500px;
+
+}
+
+.text ul{
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: gray;
+    font-size: 26px;
+    padding: 7px;
+    margin: 12px;
+    /* text-align: left; */
+}
+#des{
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    color: gray;
+    font-size: 19px;
+    padding: 7px;
+    margin: 12px;
+    /* text-align: left; */
+}
+.text ul svg{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
+#dec_span {
+    padding-left: 175px;
+}
+#title_span {
+    padding-left: 10px;
+}

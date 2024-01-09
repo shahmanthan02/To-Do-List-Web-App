@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="to_do_app.css">
+    
+</head>
+<body>
+
+    <div id="title">
+        <b>To-Do List Web App</b>
+    </div>
+
+    <div id="main">
+   
+        <div id="mydiv" class="header">
+            <input type="text" name="" id="title_h" placeholder="Task" required><br><br>
+
+        </div>
+
+            <div>
+                <textarea name id="description" cols="30" rows="12" style="height: 178px; width: 310px;"  required>Add Note</textarea>
+         </div>
+
+         <button id="save" onclick="Add()">
+            Add
+         </button>
+    </div>
+
+    <div class="text">
+       <b> Your Tasks Goes here...</b>
+        <span id="title_span"></span>
+        <span id="dec_span"></span>
+    </div>
+    <script src="to_do_app.js"></script>
+</body>
+</html>
